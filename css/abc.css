@@ -1,0 +1,19 @@
+.box{
+    background: greenyellow;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    perspective: 1000px;
+}
+.transform{
+    background: red;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 200px;
+    transform: translateZ(675px);
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
